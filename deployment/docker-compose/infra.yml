@@ -1,8 +1,7 @@
-version: "3.8"
 name: 'spring-boot-microservices-course'
 services:
   catalog-db:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     container_name: catalog-db
     environment:
       - POSTGRES_USER=postgres
