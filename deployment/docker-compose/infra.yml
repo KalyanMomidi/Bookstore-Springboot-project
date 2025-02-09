@@ -17,7 +17,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
   orders-db:
     image: postgres:17-alpine
@@ -36,7 +36,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
   bookstore-rabbitmq:
     image: rabbitmq:3.12.11-management
@@ -55,7 +55,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
   notifications-db:
     image: postgres:17-alpine
@@ -74,7 +74,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
   mailhog:
     image: mailhog/mailhog:v1.0.1

@@ -17,7 +17,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
 
   order-service:
@@ -44,7 +44,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
 
 
 
@@ -75,4 +75,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
